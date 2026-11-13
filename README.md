@@ -1,22 +1,30 @@
-# Hi there\! 👋 I'm Cesar Ore
+# Hi, I'm Cesar Ore 👋
 
-### Business & Systems Engineering Student | Data Analyst
+### Data Analyst · Python, SQL, Power BI & Excel · Bilingual English/Spanish · Based in Australia
 
-I am a results-oriented professional with a background in Business Engineering and Systems, bringing over three years of experience in team leadership and process optimization. My focus is on leveraging my analytical skills in the Data Analysis field, where I am passionate about translating complex data into strategic, actionable business insights.
+I turn messy public and business data into clean pipelines, tested analyses and reports that people can act on. I hold a degree in Business & Systems Engineering and have 3+ years of experience in team leadership, reporting and process optimization.
 
-**What I do:**
+**Open to remote roles:** Data Analyst · Reporting / BI Analyst · Data Quality Analyst · AI Trainer (English/Spanish)
 
-  * 📊 Optimize processes and develop performance reports using data analysis.
-  * 💡 Combine technical problem-solving with strong business acumen and strategic planning.
-  * 📈 Continuously expanding my technical stack to build robust data solutions.
+## 📂 Featured projects
 
-### 🛠️ Tools & Technologies
+| Project | What it does | Stack |
+|---|---|---|
+| [Victoria road crash hotspots](https://github.com/StuardOre/victoria-crash-analysis) | 200,000+ crash records cleaned and clustered with DBSCAN into named high-risk corridors, plus an interactive heatmap and routing recommendations for delivery fleets | Python · pandas · scikit-learn · Folium · pytest |
+| [Australian student visa trends](https://github.com/StuardOre/australian-student-visas-analysis) | 20 years of Home Affairs pivot-table reports reshaped into one tidy dataset to measure grant rates, refusals, market share and policy impact | Python · pandas · seaborn · pytest |
+| [Texas auto insurance complaints report](https://github.com/StuardOre/texas-auto-insurance-complaints-report) | Pulls live regulator open data from an API and builds a formatted Excel report with KPIs, charts and data-quality checks in one run | Python · pandas · REST API · XlsxWriter |
 
-  * **Data Visualization & BI:** Power BI
-  * **Spreadsheets:** Microsoft Excel (Advanced)
-  * **Programming:** Python
+Every project uses real public data and documents its methodology, limitations and how to reproduce it.
 
-### 📫 Let's Connect\!
+## 🛠️ Toolbox
 
-  * **LinkedIn:** [linkedin.com/in/csoc](https://www.google.com/search?q=https://www.linkedin.com/in/csoc)
-  * **Email:** [orestuard28@gmail.com](mailto:orestuard28@gmail.com)
+- **Analysis:** Python (pandas, NumPy, scikit-learn), SQL
+- **BI & reporting:** Power BI, Excel (advanced), Google Sheets
+- **Working style:** reproducible pipelines, unit tests, clear assumptions and limitations
+- **Languages:** Spanish (native), English
+
+## 📫 Contact
+
+- LinkedIn: [linkedin.com/in/csoc](https://www.linkedin.com/in/csoc/)
+- Upwork: [Stuard O.](https://www.upwork.com/freelancers/~0147ecd61cceb9b80c)
+- Email: [orestuard28@gmail.com](mailto:orestuard28@gmail.com)
