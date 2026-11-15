@@ -8,6 +8,17 @@ I turn messy public and business data into clean pipelines, tested analyses and 
 
 ## 📂 Featured projects
 
+### Data automation: Excel, Google Sheets and web data
+
+| Project | What it does | Stack |
+|---|---|---|
+| [Company directory web scraper](https://github.com/StuardOre/asx200-company-directory-scraper) | Reads the ASX 200 list and each company page, then builds one clean Excel directory with a status and a source link on every row. Built-in checks flagged a ticker mismatch, 2 links to a founder instead of the company and 6 head-office mismatches | Python · requests · BeautifulSoup · pandas · openpyxl |
+| [Google Sheets lead intake tracker](https://github.com/StuardOre/google-sheets-lead-intake-tracker) | Google Form to Google Sheets pipeline: lead IDs, a duplicate check that ignores LLC/Inc, email alerts, follow-up dates and a live dashboard, loaded with 115 real companies | Google Apps Script (JavaScript) · Google Sheets · Google Forms |
+| [Excel + Python list reconciliation](https://github.com/StuardOre/excel-python-list-reconciliation) | Matches 503 large-cap US companies against 13,268 exchange listing rows on normalized ticker and fuzzy company name. The Excel output has a summary, a review tab with 12 exceptions, a clean master list and a log | Python · pandas · rapidfuzz · openpyxl |
+| [PDF table to Excel with checks](https://github.com/StuardOre/pdf-table-to-excel-with-checks) | Extracts a U.S. Census Bureau PDF table into a clean Excel workbook with 6 live checks per row. The checks caught 4 printed totals that do not add up | Python · pdfplumber · pandas · openpyxl |
+
+### Analysis
+
 | Project | What it does | Stack |
 |---|---|---|
 | [NSW rental market (SQL)](https://github.com/StuardOre/nsw-rental-market-sql) | 1.5 million NSW rental bond lodgements modelled in DuckDB with documented cleaning rules, a data-quality log, data marts and analysis queries: median new-lease rent rose 21% in three years | SQL · DuckDB · Python |
@@ -20,6 +31,7 @@ Every project uses real public data and documents its methodology, limitations a
 ## 🛠️ Toolbox
 
 - **Analysis:** Python (pandas, NumPy, scikit-learn), SQL (DuckDB)
+- **Automation:** web scraping (requests, BeautifulSoup), PDF extraction (pdfplumber), fuzzy matching (rapidfuzz), Google Apps Script (JavaScript)
 - **BI & reporting:** Power BI, Excel (advanced), Google Sheets
 - **Working style:** reproducible pipelines, unit tests, clear assumptions and limitations
 - **Languages:** Spanish (native), English
