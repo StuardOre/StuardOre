@@ -8,10 +8,11 @@ I turn messy public and business data into clean pipelines, tested analyses and 
 
 ## 📂 Featured projects
 
-### Data automation: Excel, Google Sheets and web data
+### Excel, Google Sheets and data automation
 
 | Project | What it does | Stack |
 |---|---|---|
+| [Excel sales performance tracker](https://github.com/StuardOre/excel-sales-performance-tracker) | Monthly sales tracker on 1 million real transactions of a UK online retailer: pick a month and every KPI, table and chart shows actual vs target, year to date, new vs returning customers and achievement by market and product line. A checks tab reconciles all 24 months to the source totals | Excel (SUMIFS, EDATE, tables, data validation) · Python · pandas · openpyxl |
 | [Company directory web scraper](https://github.com/StuardOre/asx200-company-directory-scraper) | Reads the ASX 200 list and each company page, then builds one clean Excel directory with a status and a source link on every row. Built-in checks flagged a ticker mismatch, 2 links to a founder instead of the company and 6 head-office mismatches | Python · requests · BeautifulSoup · pandas · openpyxl |
 | [Google Sheets lead intake tracker](https://github.com/StuardOre/google-sheets-lead-intake-tracker) | Google Form to Google Sheets pipeline: lead IDs, a duplicate check that ignores LLC/Inc, email alerts, follow-up dates and a live dashboard, loaded with 115 real companies | Google Apps Script (JavaScript) · Google Sheets · Google Forms |
 | [Excel + Python list reconciliation](https://github.com/StuardOre/excel-python-list-reconciliation) | Matches 503 large-cap US companies against 13,268 exchange listing rows on normalized ticker and fuzzy company name. The Excel output has a summary, a review tab with 12 exceptions, a clean master list and a log | Python · pandas · rapidfuzz · openpyxl |
